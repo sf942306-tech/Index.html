@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strudent Registration Form</title>
+</head>
+<body>
+    
+    <h1>KMCL Univesity</h1>
+    <h1>Strudent Registration Form</h1>
+
+    <form>
+
+        <!--Name-->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <!--Password-->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!--Course-->
+        <lable for="course">Select Course:</lable>
+        <select id="course" name="course">
+            <option value="">--Select Course--</option>
+            <option value="bca">BCA</option>
+            <option value="bba">BBA</option>
+            <option value="bcom">B.Com</option>
+            <option value="ba">B.A.</option>
+            <option value="b.tech">B.Tech</option>
+        </select>
+        <br><br>
+
+        <!--Date of Birth-->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <!--Hobbies-->
+        <lable>Hobbies</lable>
+        <input type="checkbox" name="hobby" value="reading"> Reading
+        <input type="checkbox" name="hobby" value="sports"> Sports
+        <input type="checkbox" name="hoppy" value="music"> Music
+        <input type="checkbox" name="hobby" value="coding"> Coding
+        <input type="checkbox" name="hoppy" value="watching movie">Watching Movie
+        <br><br>
+
+        <!--Address-->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <!--Buttons-->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
